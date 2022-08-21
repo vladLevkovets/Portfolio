@@ -3,7 +3,9 @@
     padding: 0;
     margin: 0;
   }
-
+html{
+    scroll-behavior:auto;
+}
 #Main {
     width: 98vw;
     background: none; 
@@ -31,6 +33,7 @@
    
 }
 #topbar{
+    margin-top: 1vh;
     margin-bottom: 0;
     position: sticky;
     top: -14.6vh;   
@@ -121,8 +124,10 @@
 }
 #head{
     width: 40%;
+    padding-top: 15vh;
 }
 #jarvis{
+    
     width:100%;
     display: inline-block;
     border: 1px solid black;
@@ -149,6 +154,8 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    letter-spacing: 0.5rem;
+    
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 #contacts p{
