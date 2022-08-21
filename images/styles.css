@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+#Main {
+    width: 98vw;
+    background: none; 
+    
+ }
+#background-video{
+    min-width: 100vw;
+    position: fixed;
+    min-height: 3500px;
+    top:0px;
+    z-index: 0;
+} 
+.chapter{
+   max-height:72vw;
+   width: 96vw;
+   background-color: rgb(20, 20, 20, 0.900);
+   margin:0 2% 5vw ;
+   color: rgb(229, 196, 153);
+   position: relative;
+   top: 0px;
+   z-index: 1;
+
+    
+
+   
+}
+#topbar{
+    margin-bottom: 0;
+    position: sticky;
+    top: -14.6vh;   
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    z-index: 2;
+}
+#top{
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#top h1{
+    text-shadow:  4px 2px greenyellow;
+    font-size: 15vh;
+    color:rgb(255, 231, 14)  ;
+}
+#icon{
+    text-shadow:  4px 2px greenyellow; 
+    padding-left: 5px;
+    display: flex;
+    justify-content: flex-start;
+    width: 12%;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(255, 231, 14);
+}
+#icon h2{
+    font-size:8vh;
+}
+#skew{
+    transform: skew(-22deg);
+}
+#title{
+    width: 50%;
+    }
+ 
+#call {
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 12%;
+    padding: 4vh 0 ;
+}
+#call a{
+    text-decoration: none;
+    color: rgb(225, 250, 4);
+    font-size:small;
+}
+#bot{
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px groove rgb(255, 231, 14);
+    border-bottom: 1px solid rgb(255, 231, 14);
+}
+#bot a{
+    text-decoration: none;
+   
+}
+#bot h2{
+    color:rgba(255, 231, 14, 0.705) ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#inv{   
+    height: 70vh;
+    display: flex;
+}
+#speach{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#speach h1{
+    font-size: 5vw;
+}
+#speach p{ 
+    padding:0 5vh;
+    height: 50%;
+    font-size: 3vw;
+}
+#head{
+    width: 40%;
+}
+#jarvis{
+    width:100%;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 10vw;
+}
+#about{
+    height: 80vh;
+}
+#skills{
+    height: 80vh;
+}
+#projects{
+    height: 80vh;
+}
+
+#contacts{
+    width: 100%;
+    position: sticky;
+    height:25vh;
+    background-color: rgba(10, 30, 20, 0.800);
+    z-index: 2;
+    color:rgb(44, 241, 103);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#contacts p{
+    font-size: 1.7rem;
+    background-color: black;
+}
+#contacts h1{
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
