@@ -3,9 +3,9 @@
     padding: 0;
     margin: 0;
   }
-html{
-    scroll-behavior:auto;
-}
+/* html{
+     scroll-behavior:smooth; 
+}  */
 #Main {
     width: 98vw;
     background: none; 
@@ -19,18 +19,15 @@ html{
     z-index: 0;
 } 
 .chapter{
-   max-height:72vw;
-   width: 96vw;
-   background-color: rgb(20, 20, 20, 0.900);
-   margin:0 2% 5vw ;
-   color: rgb(229, 196, 153);
-   position: relative;
-   top: 0px;
-   z-index: 1;
+    max-height: 72vw;
+    width: 96vw;
+    background-color: rgb(20, 20, 20, 0.900);
+    margin: 0px 1.5% 5vw;
+    color: rgb(229, 196, 153);
+    position: relative;
+    top: 0px;
+    z-index: 1;
 
-    
-
-   
 }
 #topbar{
     margin-top: 1vh;
@@ -51,7 +48,7 @@ html{
 #top h1{
     text-shadow:  4px 2px greenyellow;
     font-size: 15vh;
-    color:rgb(255, 231, 14)  ;
+    color:rgb(255, 231, 14) ;
 }
 #icon{
     text-shadow:  4px 2px greenyellow; 
@@ -104,11 +101,18 @@ html{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 #inv{   
-    height: 70vh;
-    display: flex;
+    height: 75vh;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 70vh 5vh;
+
+}
+#mark1{
+    visibility: hidden;
 }
 #speach{
-    width: 60%;
+    height: 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -123,7 +127,8 @@ html{
     font-size: 3vw;
 }
 #head{
-    width: 40%;
+    height: 100%;
+    width: 100%;
     padding-top: 15vh;
 }
 #jarvis{
@@ -138,13 +143,7 @@ html{
 }
 #skills{
     height: 80vh;
-        overflow: auto;   
-        text-align: justify; 
-        padding: 15px; 
-        border-left: #000000 1px solid; 
-        border-right: #000000 1px solid; 
-        border-top: #000000 1px solid; 
-        border-bottom: #000000 1px solid; 
+         
 }
 
 #projects{
@@ -206,6 +205,7 @@ html{
     width: 50%;
 }
 #bye{
+    margin-top: 6vw;
     width: 100%;
     position: sticky;
     height:25vh;
